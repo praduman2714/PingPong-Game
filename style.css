@@ -1,0 +1,48 @@
+/* Just insuring that no extra margin and padding */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+
+#container{
+    position: relative;
+}
+/* This css style is for ball */
+#ball{
+    background-color: rgb(41, 107, 41);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: fixed;
+    top: 30px;
+    left: 49%;
+}
+/* This css style is for bar1 */
+#bar1{
+    color: wheat;
+    background-color: brown;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 45%;
+    border-radius: 10px;
+}
+/* This css style is for bar2 */
+#bar2{
+    background-color: brown;
+    color: wheat;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0%;
+    align-items: center;
+    left: 45%;
+    border-radius: 10px;
+}
