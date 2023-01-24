@@ -133,12 +133,12 @@ function gameReset(barName){
     // then you'll get the chance to server. (Nothing realistic, just fantasy :) ).
     if(barName == thisBar1){
         ball.style.top=bar2.getBoundingClientRect().y-bar2.getBoundingClientRect().height+"px";
-        moveY=-2;
+        moveY=-5;
     }else if(barName==thisBar2){
          ball.style.top=bar1.getBoundingClientRect().y + bar1.getBoundingClientRect().height+"px";
         // ball.style.top = "30px";
         // ball.style.left = "49%";
-        moveY=2;
+        moveY=5;
     }
     score = 0;
     gameStart = false;
